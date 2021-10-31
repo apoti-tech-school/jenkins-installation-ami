@@ -1,0 +1,15 @@
+###################################################
+## Jenkins installation on AWS EC2 using war file##
+###################################################
+ 
+## Get the latest jenkins war file
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+ 
+## Install jenkins using war file
+java -jar jenkins.war
+ 
+## Get the initial administartive password from the output of the above command
+# Jenkins initial setup is required. An admin user has been created and a password generated.
+# Please use the following password to proceed to installation:
+# 2871112a4e704e3bbc9c2e0b2963c8c0
+# This may also be found at: /home/ec2-user/.jenkins/secrets/initialAdminPassword
