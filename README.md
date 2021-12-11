@@ -1,5 +1,5 @@
 # Installing Jenkins on Amazon Linux AMI 
-
+##@##
 1. Create an IAM role for EC2 instance.
 2. Launch new EC2 instance
 3. Select Amazon Linux AMI 
